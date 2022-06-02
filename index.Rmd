@@ -1,0 +1,45 @@
+--- 
+title: "The Online Red Data Book of Birds of South Africa, Lesotho and Eswatini"
+author: "Alan Lee"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This book presents species information on the birds of South Africa, Lesotho and Eswatini for making regional red listing decisions."
+---
+
+# Welcome {-}
+
+
+
+**Red Listing** is the process of quantifying the risk of extinction for a species. The Red Listing processes has been set out by the International Union for Conservation of Nature (IUCN). This book is the Regional Red Listing process undertaken for the geographic domain of South Africa, Lesotho and Eswatini. 
+
+This book provides detailed analyses for the categories and criteria for each species normally found in this region, excluding vagrants. 
+
+This book format has been chosen as it presents the best opportunity to leverage data from the growing number of citizen science databases. SABAP2 is the best example of this: the data base underpins many of the maps and analyses for each terrestrial and some coastal seabirds. 
+
+Accounts for the pelagic seabirds follows the traditional format of expert reviews.
+
+This work was led by the Science and Innovation Programme at BirdLife South Africa, with many expert contributors and taxon experts. 
+
+_We need some pictures and logos here_. 
+
+
+
+``` {r echo = FALSE}
+knitr::include_graphics(rep("Images/blsa-logo-transparent.png"))
+
+```
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
+
+The online version of this book is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
